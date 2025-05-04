@@ -1,0 +1,113 @@
+*{
+    margin:0  ;
+    
+}
+
+
+.org{
+    background-color: orangered;
+    height: 500px;
+    width: 100%;
+
+}
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    gap: 20px;
+}
+button{
+    background-color: orangered;
+    border-color:white;
+    border-radius:5px;
+    margin: 20px 2px ;
+}
+.bld{
+    color: white;
+    text-decoration: solid;
+    margin: 50px 100px;
+    
+
+}
+.kf{
+       display: flex; 
+    }
+img{
+    height: 100px;
+    width: 100px;
+}
+.card-container{
+    background-color: antiquewhite;
+    height: 500px;
+    width: 100%;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin: 40px 100px;
+    padding-top: 35px;
+    border-radius: 5px;
+    height: 400px;
+    
+    
+}
+.yello{
+    background-color: rgb(252, 179, 21);
+    
+}
+#first{
+    background-color: white;
+display: flex;
+justify-content: space-between;
+padding:20px 20px;
+
+}
+#second{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px;
+}
+#trd{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px;
+}
+#tth{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px;
+    
+
+}
+#ttth{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding :20px 20px;
+}
+.card-title{
+ font-weight: bolder;
+}
+.pi{
+    display: flex;
+    margin: 0 100px;
+}
+.yello{
+    display: flex;
+    justify-content: space-between;
+}
+#Store{
+    display: flex;
+    justify-content: space-between;
+     margin: 30px 50px;
+     gap: 30px;
+
+}
+#not{
+    margin: 30px 50px;   
+}
